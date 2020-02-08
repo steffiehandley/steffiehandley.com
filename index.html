@@ -10,17 +10,41 @@
             font-family: arial;
         }
 
-        div {
+        .intro {
             background-color: #1de5ecf7
         }
+
+        .popup {
+            display: none
+        }
         </style>
+
     </head>
     <body>
-        <div>
+        <div class="intro">
             <h1>Hello, <br/> <span>I am Steffie Handley</span></h1>
             <p>This is my first webpage. I am a Boston (MA) based Mama currently training to become a front end web developer, with the help of my fantastic husband.</p>
+
+            <button class="toggle">
+                click me
+            </button>
+        </div>
+
+        <div class="popup">
+            <img src="https://placebear.com/800/400"/>
         </div>
         
     </body>
-   
+
+    <script>
+        var popup = document.querySelector(".popup");
+        var toggle = document.querySelector(".toggle")
+        
+        function togpop() {
+            popup.style.display = "block"
+        }
+
+        toggle.addEventListener("click",togpop)
+        
+    </script>
 </html>
