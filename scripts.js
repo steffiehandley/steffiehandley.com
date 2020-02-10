@@ -1,8 +1,8 @@
 var popup = document.querySelector(".popup");
-        var toggle = document.querySelector(".toggle")
+var toggle = document.querySelector(".toggle")
         
-        function togpop() {
-            popup.style.display = "block"
-        }
+function togpop() {
+    popup.style.display = "block"
+}
 
-        toggle.addEventListener("click",togpop)
+toggle.addEventListener("click",togpop)
