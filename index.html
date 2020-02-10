@@ -1,29 +1,15 @@
 <html>
     <head>
-        <style>
-        span {
-            font-size: 0.5em;
-        }
-
-        h1 {
-            line-height: 1.25;
-            font-family: arial;
-        }
-
-        .intro {
-            background-color: #1de5ecf7
-        }
-
-        .popup {
-            display: none
-        }
-        </style>
-
+        <link href="styles.css" rel="stylesheet"> 
+        <script src="scripts.js" defer></script>
     </head>
     <body>
         <div class="intro">
             <h1>Hello, <br/> <span>I am Steffie Handley</span></h1>
-            <p>This is my first webpage. I am a Boston (MA) based Mama currently training to become a front end web developer, with the help of my fantastic husband.</p>
+            <p>This is my first webpage. I am a Boston (MA) based Mama currently training to become a front end web developer, with the help of my fantastic husband. <a href="about/index.html">Read more</a></p>
+
+            <p>I am learning from <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">MDN</a>
+            </p>
 
             <button class="toggle">
                 click me
@@ -36,15 +22,4 @@
         
     </body>
 
-    <script>
-        var popup = document.querySelector(".popup");
-        var toggle = document.querySelector(".toggle")
-        
-        function togpop() {
-            popup.style.display = "block"
-        }
-
-        toggle.addEventListener("click",togpop)
-        
-    </script>
 </html>

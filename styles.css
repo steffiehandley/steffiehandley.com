@@ -1,0 +1,16 @@
+span {
+    font-size: 0.5em;
+}
+
+h1 {
+    line-height: 1.25;
+    font-family: arial;
+}
+
+.intro {
+    background-color: #ec921df7
+}
+
+.popup {
+    display: none
+}
