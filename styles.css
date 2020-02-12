@@ -14,3 +14,11 @@ h1 {
 .popup {
     display: none
 }
+
+.list-inline {
+    display: flex
+}
+
+.list-inline li {
+    margin-right: 40px;
+}
